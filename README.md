@@ -1,4 +1,4 @@
-JmxTalk Instalation
+JmxTalk Installation
 ========
 
 Downloading the client
@@ -26,11 +26,11 @@ Variable assignment
     a = 4;
     b = "a string value";
 
-
 Output
 -----
 
     print(obj);
+    print(vars);
 
 
 Class information
