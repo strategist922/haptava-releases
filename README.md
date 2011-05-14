@@ -1,3 +1,22 @@
+JmxTalk Instalation
+========
+
+Downloading the client
+------
+
+wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.0.jar
+
+Running the JmxTalk Client
+------
+
+Invoke the client with:
+
+    java -jar JmxTalk-0.9.0.jar groupName sessionConfigName password url
+
+For example:
+
+	java -jar JmxTalk-0.9.0.jar acme config1 topsecret jmxbridge://jmxtalk.com:7003
+
 JmxTalk Syntax
 ========
 
@@ -11,15 +30,12 @@ Variable assignment
 Output
 -----
 
-    System.out.println(obj);
     print(obj);
 
 
 Class information
 -----
 
-    print(System.getDescription(obj));
-    // or
     describe(obj);
 
 
@@ -226,9 +242,3 @@ MBean Notifications
     // Delete the listener
     NotificationAdmin.removeListener("nl1");
 
-Using the JmxTalk Proxy
-------
-
-The proxy is invoked with:
-
-    java -cp JmxTalk-1.0-jar-with-dependencies.jar com.jmxtalk.JmxTalk
