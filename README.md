@@ -152,10 +152,13 @@ MBeanServers
 
     // Verify the servers are present
     print(MBeanServerAdmin.getServers());
+	// or
+	print(mbeanServers);
 
     // Referencing the servers
     f1 = MBeanServerAdmin.getServers()[0];
     f2 = MBeanServerAdmin.getServer("f2");
+ 	f3 = mbeanServers[2];
 
 MBeanServerGroups
 ------
