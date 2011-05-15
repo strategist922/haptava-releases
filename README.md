@@ -20,11 +20,11 @@ For example:
 JavaDocs
 ========
 
-Shell object descriptions: http://pambrose.github.com/JmxTalkReleases/javadocs/shellobjects
+Shell objects reference: http://pambrose.github.com/JmxTalkReleases/javadocs/shellobjects
 
-MBean descriptions: http://pambrose.github.com/JmxTalkReleases/javadocs/mbeans
+MBeans reference: http://pambrose.github.com/JmxTalkReleases/javadocs/mbeans
 
-Shell variables: http://pambrose.github.com/JmxTalkReleases/javadocs/shellvars
+Shell variables description: http://pambrose.github.com/JmxTalkReleases/javadocs/shellvars
 
 JmxTalk Syntax
 ========
