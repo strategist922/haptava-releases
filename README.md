@@ -17,25 +17,14 @@ For example:
 
 	java -jar JmxTalk-0.9.1.jar acme config1 topsecret jmxbridge://jmxtalk.com:7003
 
-
 JavaDocs
 ========
 
+Shell object descriptions: http://pambrose.github.com/JmxTalkReleases/javadocs/shellobjects
 
-Shell object descriptions
------
+MBean descriptions: http://pambrose.github.com/JmxTalkReleases/javadocs/mbeans
 
-	http://pambrose.github.com/JmxTalkReleases/javadocs/shellobjects
-
-MBean descriptions 
------
-
-http://pambrose.github.com/JmxTalkReleases/javadocs/mbeans
-
-Shell variables 
------
-
-http://pambrose.github.com/JmxTalkReleases/javadocs/shellvars
+Shell variables: http://pambrose.github.com/JmxTalkReleases/javadocs/shellvars
 
 JmxTalk Syntax
 ========
