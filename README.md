@@ -23,7 +23,9 @@ JmxTalk Syntax
 JavaDocs
 -----
 
-Javadocs are available here: http://pambrose.github.com/JmxTalkReleases/javadocs/
+Shell object descriptions are here: http://pambrose.github.com/JmxTalkReleases/javadocs/shellobjects
+MBean descriptions are here: http://pambrose.github.com/JmxTalkReleases/javadocs/mbeans
+Shell variables are here: http://pambrose.github.com/JmxTalkReleases/javadocs/shellvars
 
 Variable assignment
 -----
