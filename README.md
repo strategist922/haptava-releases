@@ -17,13 +17,13 @@ For example:
 
 	java -jar JmxTalk-0.9.1.jar acme config1 topsecret jmxbridge://jmxtalk.com:7003
 
-JmxTalk JavaDocs
-========
-
-	Javadocs are available here: http://pambrose.github.com/JmxTalkReleases/javadocs/
-
 JmxTalk Syntax
 ========
+
+JavaDocs
+-----
+
+Javadocs are available here: http://pambrose.github.com/JmxTalkReleases/javadocs/
 
 Variable assignment
 -----
