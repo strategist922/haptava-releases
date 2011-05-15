@@ -1,4 +1,4 @@
-JmxTalk Installation [[Installation]]
+JmxTalk Installation
 ========
 
 Downloading the client
