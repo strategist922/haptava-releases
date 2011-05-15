@@ -4,18 +4,18 @@ JmxTalk Installation
 Downloading the client
 ------
 
-wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.1.jar
+wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.2.jar
 
 Running the JmxTalk Client
 ------
 
 Invoke the client with:
 
-    java -jar JmxTalk-0.9.1.jar groupName sessionConfigName password url
+    java -jar JmxTalk-0.9.2.jar groupName sessionConfigName password url
 
 For example:
 
-	java -jar JmxTalk-0.9.1.jar acme config1 topsecret jmxbridge://jmxtalk.com:7003
+	java -jar JmxTalk-0.9.2.jar acme config1 topsecret jmxbridge://jmxtalk.com:7003
 
 JavaDocs
 ========
