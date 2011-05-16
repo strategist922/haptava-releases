@@ -70,23 +70,23 @@ Control flow statements
 -----
 
 ````java
-    for (i = 0; i < 10; i++) System.out.println(i);
-    for (i = 0; i < 10; i++) {print(i); a += i;}
+for (i = 0; i < 10; i++) System.out.println(i);
+for (i = 0; i < 10; i++) {print(i); a += i;}
 
-    if (a < b) print(i); else print(j);
-    if (a < b) print(i;
-    if (a < b) {print(i); print(h);} else print(j);
+if (a < b) print(i); else print(j);
+if (a < b) print(i;
+if (a < b) {print(i); print(h);} else print(j);
 ````
 
 Lambdas
 -----
 
 ````java
-    a = #{String v1, String v2 -> print("Vals are " + v1 + " and " + v2);};
-    a("Hello", "World");
+a = #{String v1, String v2 -> print("Vals are " + v1 + " and " + v2);};
+a("Hello", "World");
 
-    b = #System.describe;
-    b(4 + 5);
+b = #vars.describe;
+b(4 + 5);
 ````
 
 Xmpp Beacons
@@ -219,33 +219,33 @@ MBean queries using JmxQL
 
  ````java
  print(f1.getMBeans("*:*"));
-  print(f1.getMBeans("*:*", "not instanceof 'com.foo.JmxTest'"));
-  print(f1.getMBeans("com.foo:*", "Val2 > 4 AND Val5 > 9"));
-  print(f1.getMBeans("com.foo:*", "Val2 IN (2, 4)"));
-  print(f1.getMBeans("com.foo:*", "Val2 not IN (2, 4)"));
-  print(f1.getMBeans("com.foo:*", "com.foo.JmxTest.Val2 between 2 AND 4"));
-  print(f1.getMBeans("com.foo:*", "Val2 between 2 AND 4")
-  print(f1.getMBeans("com.foo:*", "Val2 not between 2 AND 4 OR not (Val3 between 2 AND 4)"));
-  print(f1.getMBeans("com.foo:*", "Val1 like '*'"));
-  print(f1.getMBeans("com.foo:*", "Val1 not like '*'"));
-  print(f1.getMBeans("com.foo:*", "Val1 like '*2'"));
-  print(f1.getMBeans("com.foo:*", "not (Val1 like '*2')"));
-  print(f1.getMBeans("com.foo:*", "Val1 begins with 'v'"));
-  print(f1.getMBeans("com.foo:*", "Val1 not begins with 'v'"));
-  print(f1.getMBeans("com.foo:*", "Val1 ends with 'f'"));
-  print(f1.getMBeans("com.foo:*", "Val1 not ends with 'f'"));
-  print(f1.getMBeans("com.foo:*", "Val1 contains 'g'"));
-  print(f1.getMBeans("com.foo:*", "Val1 not contains 'k'"));
-  print(f1.getMBeans("*:*", "like '*Jmx*'"));
-  print(f1.getMBeans("*:*", "not like '*Jmx*'"));
-  print(f1.getMBeans("*:*", "not (like '*Jmx*')"));
-  print(f1.getMBeans("*:*", "begins with 'com'"));
-  print(f1.getMBeans("*:*", "not begins with 'com'"));
-  print(f1.getMBeans("*:*", "ends with 'est'"));
-  print(f1.getMBeans("*:*", "not ends with 'est'"));
-  print(f1.getMBeans("*:*", "contains 'jmxtalk'"));
-  print(f1.getMBeans("*:*", "not contains 'memset'"));
-  print(f1.getMBeans("*:*", "begins with 'com'")[0]);
+ print(f1.getMBeans("*:*", "not instanceof 'com.foo.JmxTest'"));
+ print(f1.getMBeans("com.foo:*", "Val2 > 4 AND Val5 > 9"));
+ print(f1.getMBeans("com.foo:*", "Val2 IN (2, 4)"));
+ print(f1.getMBeans("com.foo:*", "Val2 not IN (2, 4)"));
+ print(f1.getMBeans("com.foo:*", "com.foo.JmxTest.Val2 between 2 AND 4"));
+ print(f1.getMBeans("com.foo:*", "Val2 between 2 AND 4")
+ print(f1.getMBeans("com.foo:*", "Val2 not between 2 AND 4 OR not (Val3 between 2 AND 4)"));
+ print(f1.getMBeans("com.foo:*", "Val1 like '*'"));
+ print(f1.getMBeans("com.foo:*", "Val1 not like '*'"));
+ print(f1.getMBeans("com.foo:*", "Val1 like '*2'"));
+ print(f1.getMBeans("com.foo:*", "not (Val1 like '*2')"));
+ print(f1.getMBeans("com.foo:*", "Val1 begins with 'v'"));
+ print(f1.getMBeans("com.foo:*", "Val1 not begins with 'v'"));
+ print(f1.getMBeans("com.foo:*", "Val1 ends with 'f'"));
+ print(f1.getMBeans("com.foo:*", "Val1 not ends with 'f'"));
+ print(f1.getMBeans("com.foo:*", "Val1 contains 'g'"));
+ print(f1.getMBeans("com.foo:*", "Val1 not contains 'k'"));
+ print(f1.getMBeans("*:*", "like '*Jmx*'"));
+ print(f1.getMBeans("*:*", "not like '*Jmx*'"));
+ print(f1.getMBeans("*:*", "not (like '*Jmx*')"));
+ print(f1.getMBeans("*:*", "begins with 'com'"));
+ print(f1.getMBeans("*:*", "not begins with 'com'"));
+ print(f1.getMBeans("*:*", "ends with 'est'"));
+ print(f1.getMBeans("*:*", "not ends with 'est'"));
+ print(f1.getMBeans("*:*", "contains 'jmxtalk'"));
+ print(f1.getMBeans("*:*", "not contains 'memset'"));
+ print(f1.getMBeans("*:*", "begins with 'com'")[0]);
 ````
 
 JmxQL is described here: <http://weblogs.java.net/blog/emcmanus/archive/2008/04/a_query_languag.html>
