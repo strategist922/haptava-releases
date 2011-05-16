@@ -38,14 +38,13 @@ Variable assignment
 Output
 -----
 
-    print(obj);
     print(vars);
 
 
 Class information
 -----
 
-    describe(obj);
+    describe("str");
 
 
 Constructors and method invocations
@@ -117,6 +116,7 @@ Xmpp Beacons
 Timers and TimerTasks
 ------
 
+````java
     // Create timer
     t1 = TimerAdmin.newTimer("timer1");
 
@@ -149,7 +149,7 @@ Timers and TimerTasks
 
     // Delete timer
     TimerAdmin.deleteTimer(t1);
-
+````
 
 MBeanServers
 ------
