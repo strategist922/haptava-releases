@@ -20,11 +20,11 @@ For example:
 JavaDocs
 ========
 
-[[Shell objects reference| http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/shellobjects]]
+[Shell objects reference](http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/shellobjects)
 
-[[MBeans reference| http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/mbeans]]
+[MBeans reference](http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/mbeans)
 
-[[Shell variables description| http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/shellvars]]
+[Shell variables description](http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.2/shellvars)
 
 JmxTalk Syntax
 ========
@@ -32,33 +32,33 @@ JmxTalk Syntax
 Variable assignment
 -----
 
-````java
+```java
 a = 4;
 b = "a string value";
-````
+```
 
 Output to console
 -----
 
-````java
+```java
 print(vars);
-````
+```
 
 Class information
 -----
 
-````java
+```java
 describe("str");
-````
+```
 
 Constructors and method invocations
 -----
 
-````java
+```java
 c = new String[]{"val1", "abcd".substring(2,3)};
 d = c[0].contains("va");
 print(d == true);
-````
+```
 
 Operators
 -----
@@ -69,30 +69,30 @@ Operators
 Control flow statements
 -----
 
-````java
+```java
 for (i = 0; i < 10; i++) System.out.println(i);
 for (i = 0; i < 10; i++) {print(i); a += i;}
 
 if (a < b) print(i); else print(j);
 if (a < b) print(i;
 if (a < b) {print(i); print(h);} else print(j);
-````
+```
 
 Lambdas
 -----
 
-````java
+```java
 a = #{String v1, String v2 -> print("Vals are " + v1 + " and " + v2);};
 a("Hello", "World");
 
 b = #vars.describe;
 b(4 + 5);
-````
+```
 
 Xmpp Beacons
 ------
 
-````java
+```java
 // Set up a beacon
 b = "testbeacon";
 b1 = BeaconAdmin.hasBeacon(b) ? BeaconAdmin.getBeacon(b) : BeaconAdmin.newBeacon(b, "secret");
@@ -119,12 +119,12 @@ b1.deleteSubscriber(BeaconAdmin.getBeacon(b).getSubscribers()[0]);
 BeaconAdmin.deleteSubscribers();
 
 print(BeaconAdmin.getBeacon(b).getSubscriberCount());
-````
+```
 
 Timers and TimerTasks
 ------
 
-````java
+```java
 // Create timer
 t1 = TimerAdmin.newTimer("timer1");
 
@@ -157,12 +157,12 @@ t1.deleteTask(task);
 
 // Delete timer
 TimerAdmin.deleteTimer(t1);
-````
+```
 
 MBeanServers
 ------
 
-````java
+```java
 // Create 3 MBeanServers objects
 MBeanServerAdmin.newServer("f1", "service:jmx:rmi:///jndi/rmi://remotehost1:9999/jmxrmi");
 MBeanServerAdmin.newServer("f2", "service:jmx:rmi:///jndi/rmi://remotehost2:9999/jmxrmi");
@@ -177,12 +177,12 @@ print(mbeanServers);
 f1 = MBeanServerAdmin.getServers()[0];
 f2 = MBeanServerAdmin.getServer("f2");
 f3 = mbeanServers[2];
-````
+```
 
 MBeanServerGroups
 ------
 
-````java
+```java
 // Create a new group called g1
 g1 = MBeanServerGroupAdmin.newGroup("g1");
 
@@ -196,12 +196,12 @@ print(g1.getServers());
 
 // Get MBeanCount for all servers in group
 print(a.getMBeanCount());
-````
+```
 
 MBeans
 ------
 
-````java
+```java
 print(MBeanServerAdmin.getServers()[0].getMBeans());
 mb1 = f1.getMBeans()[4];
 mb1 = f1.getMBean("java.lang:type=Runtime");
@@ -212,12 +212,12 @@ print(mb1);
 print(mb1.attrib);
 print(mb1.getValue());
 mb1.setValue(44);
-````
+```
 
 MBean queries using JmxQL
 ------
 
- ````java
+ ```java
  print(f1.getMBeans("*:*"));
  print(f1.getMBeans("*:*", "not instanceof 'com.foo.JmxTest'"));
  print(f1.getMBeans("com.foo:*", "Val2 > 4 AND Val5 > 9"));
@@ -246,14 +246,14 @@ MBean queries using JmxQL
  print(f1.getMBeans("*:*", "contains 'jmxtalk'"));
  print(f1.getMBeans("*:*", "not contains 'memset'"));
  print(f1.getMBeans("*:*", "begins with 'com'")[0]);
-````
+```
 
 JmxQL is described here: <http://weblogs.java.net/blog/emcmanus/archive/2008/04/a_query_languag.html>
 
 MBean Notifications
 ------
 
-````java
+```java
 // Create a notification listener
 nl = NotificationAdmin.newListener("nl1", #{Notification notification, MBean mbean -> Log.info("red flag");}, mbean1);
 
@@ -269,4 +269,4 @@ nl.resume();
 
 // Delete the listener
 NotificationAdmin.removeListener("nl1");
-````
+```
