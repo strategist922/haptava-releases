@@ -1,4 +1,9 @@
-# JmxTalk
+### Introduction
+
+### Features
+
+### Getting Started
+
 
 [Getting Started](https://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
 
@@ -14,7 +19,7 @@
 
 [MBeans](https://github.com/pambrose/JmxTalkReleases/wiki/MBeans)
 
-[MBean queries with JmxQL](https://github.com/pambrose/JmxTalkReleases/wiki/JmxQL)
+[MBean Queries with JmxQL](https://github.com/pambrose/JmxTalkReleases/wiki/JmxQL)
 
 [MBean Notifications](https://github.com/pambrose/JmxTalkReleases/wiki/Notifications)
 
