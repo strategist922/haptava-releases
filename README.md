@@ -5,12 +5,9 @@
 ### Getting Started
 
 ### JavaDocs 
-Shell objects reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects]]
-
-MBeans reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/mbeans]]
-
-Shell variables reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellvars]]
-
+* [Shell objects reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
+* [MBeans reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/mbeans)
+* [Shell variables reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellvars)
 
 [Getting Started](https://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
 
