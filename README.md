@@ -13,7 +13,8 @@
 
 [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
 
-[MBean Shell](https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell)
+[[MBean Shell]]
+https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell
 
 [Xmpp Beacons] (https://github.com/pambrose/JmxTalkReleases/wiki/Beacons)
 
