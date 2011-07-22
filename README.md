@@ -4,12 +4,19 @@
 
 ### Getting Started
 
+### JavaDocs 
+Shell objects reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects]]
+
+MBeans reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/mbeans]]
+
+Shell variables reference: [[http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellvars]]
+
 
 [Getting Started](https://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
 
-[JavaDocs](https://github.com/pambrose/JmxTalkReleases/wiki/Javadocs)
-
 [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
+
+[MBean Shell](https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell)
 
 [Xmpp Beacons] (https://github.com/pambrose/JmxTalkReleases/wiki/Beacons)
 
@@ -19,7 +26,7 @@
 
 [MBeans](https://github.com/pambrose/JmxTalkReleases/wiki/MBeans)
 
-[MBean Queries with JmxQL](https://github.com/pambrose/JmxTalkReleases/wiki/JmxQL)
+[JmxQL](https://github.com/pambrose/JmxTalkReleases/wiki/JmxQL)
 
 [MBean Notifications](https://github.com/pambrose/JmxTalkReleases/wiki/Notifications)
 
