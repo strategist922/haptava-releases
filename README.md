@@ -12,15 +12,16 @@
 Using your favorite Xmpp client, login to jmxtalk.com with your username and add jmxtalk as a contact.
 
 ### Running the Remote Shell
+
 Usage:
-	java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell [-options]
-	where options include:
-		--usage                    print this message
-		-v,--version               print version info and exit
-		-u,--username  <value>     username value
-		-p,--password  <value>     password value
-		-s,--server    <url>       jmxtalk server url
-		-f,--file      <file name> file name
+>	java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell [-options]
+>	where options include:
+>		--usage                    print this message
+>		-v,--version               print version info and exit
+>		-u,--username  <value>     username value
+>		-p,--password  <value>     password value
+>		-s,--server    <url>       jmxtalk server url
+>		-f,--file      <file name> file name
 
 Invoke the client with:
 
