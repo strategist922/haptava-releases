@@ -13,18 +13,14 @@ Using your favorite Xmpp client, login to jmxtalk.com with your username and add
 
 ### Running the Remote Shell
 
-	Usage: java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell [-options]
+	Usage: java com.jmxtalk.RemoteShell [-options]
 	where options include:
 		--usage                    print this message
 		-v,--version               print version info and exit
 		-u,--username  <value>     username value
 		-p,--password  <value>     password value
 		-s,--server    <url>       jmxtalk server url
-		-f,--file      <file name> file name
-
-Invoke the client with:
-
-    java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell -u username -p password -s url
+		-f,--file      <filename>  script file name
 
 Example:
 
@@ -32,9 +28,15 @@ Example:
 
 ### Running the JMX Proxy:
 
-Invoke the JMX proxy with:
-
-    java -jar JmxTalk-0.9.4.jar -g groupName -c configName -a authenticationToken -s url
+	Usage: java -jar JmxTalk-0.9.4.jar [-options]
+	where options include:
+		--usage                 print this message
+		-v,--version            print version info and exit
+		-p,--prop    <filename> properties file name
+		-g,--group   <value>    group name value
+		-c,--config  <value>    config name value
+		-a,--auth    <value>    authorization token
+		-s,--server  <url>      server url
 
 Example:
 
