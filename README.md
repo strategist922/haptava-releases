@@ -1,12 +1,10 @@
-## Introduction
+## Description
 
-## Features
-
-## Getting Started
-
-### Download
+## Installation
 
 	$ wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.4.jar
+
+## Running
 
 ### Xmpp Shell Access 
 
@@ -27,7 +25,7 @@ Example:
 
     $ java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell -u user1 -p topsecret -s jmxbridge://jmxtalk.com:7003
 
-### Running the JmxTalk client for MBeanServers and JMX Proxies:
+### JmxTalk Proxy for MBeanServers and JMX Clients:
 
 	Usage: java -jar JmxTalk-0.9.4.jar [-options]
 	where options include:
@@ -43,16 +41,16 @@ Example:
 
     $ java -jar JmxTalk-0.9.4.jar -g devgroup -c prodserver -a extrasecret -s jmxbridge://jmxtalk.com:7003
 
-### [Simple walk through] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
+## [Getting Started] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
+
+## Shells
+* [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
+* [MBean Shell](https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell)
 
 ## JavaDocs 
 * [JmxTalk Shell Objects Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
 * [JmxTalk Shell Variables Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellvars)
 * [JmxTalk MBeans Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/mbeans)
-
-## Shells
-* [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
-* [MBean Shell](https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell)
 
 ## [JmxQL](https://github.com/pambrose/JmxTalkReleases/wiki/JmxQL)
 
