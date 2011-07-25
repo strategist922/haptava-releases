@@ -41,7 +41,7 @@ Example:
 
     $ java -jar JmxTalk-0.9.4.jar -g devgroup -c prodserver -a extrasecret -s jmxbridge://jmxtalk.com:7003
 
-## [Getting Started] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
+## [Getting Started] (http://pambrose.github.com/JmxTalkReleases/wiki/Getting-Started)
 
 ## Shells
 * [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
