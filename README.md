@@ -2,17 +2,17 @@
 
 ## Features
 
-## Download
+## Getting Started
+
+### Download
 
 	$ wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.4.jar
 
-## Shell Access 
-
-### Xmpp
+### Xmpp Shell Access 
 
 Using your favorite Xmpp client, login to jmxtalk.com with your username and add jmxtalk as a contact.
 
-### Command line shell
+### Command Line Shell Access
 
 	Usage: java com.jmxtalk.RemoteShell [-options]
 	where options include:
@@ -27,7 +27,7 @@ Example:
 
     $ java -cp ./JmxTalk-0.9.4.jar com.jmxtalk.RemoteShell -u user1 -p topsecret -s jmxbridge://jmxtalk.com:7003
 
-## Running the JmxTalk client for MBeanServers and JMX Proxies:
+### Running the JmxTalk client for MBeanServers and JMX Proxies:
 
 	Usage: java -jar JmxTalk-0.9.4.jar [-options]
 	where options include:
@@ -43,8 +43,7 @@ Example:
 
     $ java -jar JmxTalk-0.9.4.jar -g devgroup -c prodserver -a extrasecret -s jmxbridge://jmxtalk.com:7003
 
-## Getting Started
-
+### [Simple walk through] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
 
 ## JavaDocs 
 * [JmxTalk Shell Objects Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
