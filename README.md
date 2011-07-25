@@ -1,11 +1,12 @@
 ## Description
 
-## Installation
+## Getting Started
+* Installation
 	$ wget --no-check-certificate https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.4.jar
 
-## [Getting Started] (http://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
+* [Tutorial] (http://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
 
-## [Usage] (http://github.com/pambrose/JmxTalkReleases/wiki/Usage)
+* [Usage] (http://github.com/pambrose/JmxTalkReleases/wiki/Usage)
 
 ## Shells
 * [JmxTalk Shell](https://github.com/pambrose/JmxTalkReleases/wiki/JmxTalk-Shell)
