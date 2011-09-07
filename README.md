@@ -3,7 +3,7 @@
 JmxTalk is intended to improve the usability of JMX.  
 
 ### The Basics
-* Download the [jar](https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.4.jar)
+* Download the [jar](https://github.com/downloads/pambrose/JmxTalkReleases/JmxTalk-0.9.5.jar)
 * [Getting Started] (http://github.com/pambrose/JmxTalkReleases/wiki/Getting-Started)
 * [Usage] (http://github.com/pambrose/JmxTalkReleases/wiki/Usage)
 
@@ -12,9 +12,9 @@ JmxTalk is intended to improve the usability of JMX.
 * [MBean Shell](https://github.com/pambrose/JmxTalkReleases/wiki/MBean-Shell)
 
 ### JavaDocs 
-* [JmxTalk Shell Objects Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellobjects)
-* [JmxTalk Shell Variables Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/shellvars)
-* [JmxTalk MBeans Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.4/mbeans)
+* [JmxTalk Shell Objects Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.5/shellobjects)
+* [JmxTalk Shell Variables Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.5/shellvars)
+* [JmxTalk MBeans Reference] (http://pambrose.github.com/JmxTalkReleases/javadocs/0.9.5/mbeans)
 
 ### Examples
 * [MBeanServers](https://github.com/pambrose/JmxTalkReleases/wiki/MBeanServers)
