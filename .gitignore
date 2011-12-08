@@ -1,3 +1,6 @@
 *.iml
 *.iws
 *.ipr
+
+*-jar-with-dependencies.jar
+*-jar-with-dependencies.jar.*
