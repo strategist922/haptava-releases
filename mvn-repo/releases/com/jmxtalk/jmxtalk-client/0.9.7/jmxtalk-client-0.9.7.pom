@@ -89,11 +89,11 @@
     <distributionManagement>
         <repository>
             <id>repo</id>
-            <url>https://github.com/pambrose/JmxTalkReleases/mv-repo/releases</url>
+            <url>https://github.com/pambrose/JmxTalkReleases/tree/master/mvn-repo/releases</url>
         </repository>
         <snapshotRepository>
             <id>snapshot-repo</id>
-            <url>https://github.com/pambrose/JmxTalkReleases/mv-repo/snapshots</url>
+            <url>https://github.com/pambrose/JmxTalkReleases/tree/master/mvn-repo/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
