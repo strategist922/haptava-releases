@@ -1,0 +1,15 @@
+com.haptava.mbeans.admin
+com.haptava.mbeans.beacons
+com.haptava.mbeans.client
+com.haptava.mbeans.clientlinks
+com.haptava.mbeans.connectors
+com.haptava.mbeans.linksessionadmin
+com.haptava.mbeans.linksessions
+com.haptava.mbeans.log
+com.haptava.mbeans.mbeanservergroups
+com.haptava.mbeans.mbeanservers
+com.haptava.mbeans.notifications
+com.haptava.mbeans.serverlinks
+com.haptava.mbeans.statistics
+com.haptava.mbeans.system
+com.haptava.mbeans.timers
